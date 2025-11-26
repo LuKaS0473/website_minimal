@@ -104,3 +104,19 @@ img{
 .flex-item a:hover, .flex-item a:visited, .flex-item:active{
 	color: #60ffd9;
 }
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills li {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.text-content {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    padding: 0 1rem;
+}
