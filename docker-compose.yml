@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    container_name: website
+    restart: unless-stopped
+    networks:
+      - caddy_net
+
+networks:
+  caddy_net:
+    external: true
